@@ -10,3 +10,89 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+body {
+  margin: 0px 100px 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+#whole-game {
+  padding:
+}
+
+#title-of-game {
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+h1 {
+  color:#2B4E80;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+main {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%
+}
+
+#game-section {
+  display: block;
+  width: 50%;
+  background-color: #E6ECF4;
+  height: auto;
+}
+
+#game-inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+#question-input {
+  padding: 3%;
+  width: 70%;
+  text-align: center;
+  margin: 10px 0px 3px;
+  font-size: 14px;
+}
+
+#submit-button {
+  background-color: #2B4E80;
+  color: #ffffff;
+  padding: 3%;
+  width: 77%;
+  font-size: 14px;
+}
+
+.eight-ball-section {
+  display: flex;
+  justify-content: center;
+  height: 100%
+}
+
+#magic-eight-ball {
+  border-radius: 50%;
+  height: 200px;
+  margin: 50px;
+}
+
+#clear-button-section {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+}
+
+#clear {
+  background-color: #D0CDCD;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 2%;
+}
+
+#pic-of-woody {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+}
